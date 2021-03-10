@@ -1,10 +1,5 @@
 @charset "UTF-8";
 /*
-Template Name: Bolby
-Version: 1.0
-Author: PxlSolutions
-Author URI: http://themeforest.net/user/pxlsolutions
-Description: Portfolio/CV/Resume HTML Template
 
 [TABLE OF CONTENTS]
 
@@ -1925,7 +1920,7 @@ body.dark footer.footer {
 }
 
 #return-to-top:hover {
-  background: #ff4c60;
+  background: #9cdcec;
 }
 
 /* === Helper === */
@@ -2504,11 +2499,11 @@ body.dark footer.footer {
 }
 
 #headerLogo {
-  width: 90px;
+  width: 140px;
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(../images/hamIcon.png);
+  background-image: url(https://cdn.iconscout.com/icon/free/png-256/hamburger-menu-462145.png);
 }
 /* .navbar {
   flex-wrap: nowrap;
@@ -2518,7 +2513,7 @@ body.dark footer.footer {
 } */
 
 .navbar-dark .navbar-toggler {
-  border: 2px solid #1e94f5;
+  border: 2px solid #9cdcec;
 }
 
 #home {
@@ -2547,4 +2542,9 @@ header.desktop-header-3.fixed-top {
   background: white;
   color: #413f8d;
   border: 1.5px solid #413f8d;
+}
+
+#avatar {
+  width: 700px;
+  height: 300px;
 }
