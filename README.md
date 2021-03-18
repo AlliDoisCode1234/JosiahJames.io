@@ -1,6 +1,6 @@
-# My Awesome Project
+# My Portfolio
 
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+I am Josiah James. I am a web developer. I like bubble tea.
 
 **Link to project:** https://allidoiscode1234.github.io/JosiahJames.io/
 

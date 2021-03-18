@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /*
+Template Name: Bolby
+Version: 1.0
+Author: PxlSolutions
+Author URI: http://themeforest.net/user/pxlsolutions
+Description: Portfolio/CV/Resume HTML Template
 
 [TABLE OF CONTENTS]
 
@@ -431,7 +436,7 @@ header.desktop-header-1 .vertical-menu li a.nav-link {
   padding: 0;
 }
 header.desktop-header-1 .vertical-menu li .nav-link.active {
-  color: #ffd15c;
+  color: #00b373;
 }
 header.desktop-header-1 .submenu {
   display: none;
@@ -738,7 +743,7 @@ header.mobile-header-2 .site-logo img {
   color: #9cdcec !important;
 }
 .desktop-header-3 .nav-link:hover {
-  color: #ffd15c !important;
+  color: #00b373 !important;
 }
 .desktop-header-3 .dropdown-menu {
   position: absolute;
@@ -776,7 +781,7 @@ header.mobile-header-2 .site-logo img {
   border-bottom: solid 1px rgba(0, 0, 0, 0.05);
 }
 .desktop-header-3.light .navbar-dark .navbar-nav .nav-link {
-  color: #353353;
+  color: #00b373;
 }
 
 /*=================================================================*/
@@ -854,7 +859,7 @@ section.home.light .social-icons li a {
   color: #353353;
 }
 section.home.light .social-icons li a:hover {
-  color: #ffd15c;
+  color: #00b373;
 }
 
 .section-title {
@@ -1522,7 +1527,7 @@ body.dark .blog-item .details h4.title a:hover {
   color: #ff4c60;
 }
 body.dark .contact-info {
-  background-image: url("../images/map-light.png");
+  background-image: url("../images/map.svg");
 }
 body.dark .white-popup {
   background: #302f4e;
@@ -1880,7 +1885,7 @@ body.dark footer.footer {
   font-size: 21px;
 }
 .social-icons.light li a:hover {
-  color: #ffd15c;
+  color: #00b373;
 }
 
 /* === Go to Top === */
@@ -1920,7 +1925,7 @@ body.dark footer.footer {
 }
 
 #return-to-top:hover {
-  background: #9cdcec;
+  background: #ff4c60;
 }
 
 /* === Helper === */
@@ -2499,11 +2504,11 @@ body.dark footer.footer {
 }
 
 #headerLogo {
-  width: 140px;
+  width: 90px;
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url(https://cdn.iconscout.com/icon/free/png-256/hamburger-menu-462145.png);
+  background-image: url(../images/hamIcon.png);
 }
 /* .navbar {
   flex-wrap: nowrap;
@@ -2520,7 +2525,6 @@ body.dark footer.footer {
   background-color: none;
 }
 
-/*# sourceMappingURL=style.css.map */
 #btmicons {
   color: black;
 }
@@ -2542,9 +2546,4 @@ header.desktop-header-3.fixed-top {
   background: white;
   color: #413f8d;
   border: 1.5px solid #413f8d;
-}
-
-#avatar {
-  width: 700px;
-  height: 300px;
 }
