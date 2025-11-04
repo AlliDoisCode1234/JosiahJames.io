@@ -2547,3 +2547,39 @@ header.desktop-header-3.fixed-top {
   color: #413f8d;
   border: 1.5px solid #413f8d;
 }
+
+/* Senior-level professional enhancements */
+.intro h1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.intro span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+section#about p strong {
+  color: #353353;
+  font-weight: 600;
+}
+
+.timeline .content h3.title {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+.timeline .content .time {
+  font-weight: 600;
+  color: #00b373;
+}
+
+.service-box p {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.portfolio-item .details h4.title {
+  font-weight: 600;
+}

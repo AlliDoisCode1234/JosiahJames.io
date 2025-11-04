@@ -1,27 +1,56 @@
-# My Portfolio
+# Josiah James Fowler - Professional Portfolio
 
-I am Josiah James. I am a web developer. I like bubble tea.
+Sr Software Engineer specializing in scalable web and mobile products. This portfolio showcases my experience delivering high-impact features, leading technical initiatives, and driving measurable business outcomes.
 
-**Link to project:** https://allidoiscode1234.github.io/JosiahJames.io/
+**Live Site:** https://allidoiscode1234.github.io/JosiahJames.io/
 
-![alt tag](https://i.imgur.com/gwPgxGh.png)
+![Portfolio Preview](https://i.imgur.com/gwPgxGh.png)
 
-## How It's Made:
+## Key Highlights
 
-**Tech used:** HTML, CSS, SaSS, Bootstrap 4, JavaScript
+- **25+ Full-Stack Features Delivered** - Built and shipped mobile app with full web parity, driving 3x user adoption
+- **60% Deployment Time Reduction** - Led architecture migration from microservices to monolithic design
+- **35% Team Velocity Increase** - Implemented engineering processes and led collaborative initiatives
+- **100+ Client Communities** - Built and maintained social platform with admin CRM and events system
 
-Used bootstrap along with third party libraries to add preloader animations, hover animations, scroll animations, and unique progress markers to highlight any section you scroll to in the sticky navigation. Something fun and light to play around with to demonstrate my front end skill while showcasing my full stack development capabilities.
+## Tech Stack
 
-## Lessons Learned:
+**Frontend:** React, React Native, TypeScript, HTML5, CSS3, SASS, Bootstrap 4  
+**Backend:** Node.js, PostgreSQL, GraphQL, Convex, MongoDB  
+**Tools & Practices:** CI/CD (Codefresh), Agile SCRUM, Automated Testing, WCAG Accessibility  
+**Cloud & Infrastructure:** DigitalOcean, Azure, Fastly
 
-I learned that you can't rely on a resume alone, you need to show what you can do in many ways! I had the most fun with the preloader for animations not just optimizations.
+## Features
 
-## Examples:
+- Responsive design optimized for all devices
+- Accessibility compliant (WCAG standards)
+- Smooth animations and scroll interactions
+- Professional timeline showcasing career progression
+- Direct contact integration
+- SEO optimized with Open Graph meta tags
 
-Take a look at these couple examples that I have in my own portfolio:
+## Professional Experience
 
-**Pups App:** https://github.com/AlliDoisCode1234/pupsWeb
+- **Full Stack Developer** at JosiahJames (Sep 2025 – Present)
+- **Software Engineer II** at The Community Company (Oct 2021 – Sep 2025)
+- **Full Stack Web Developer** at 100 Devs (2020 – Oct 2021)
+- **Director of Marketing** at Smartflower (2019 – 2020)
+- **Full Stack Software Engineer** at Resilient Coders (2017 – 2019)
 
-**Healthy Eating App:** https://github.com/AlliDoisCode1234/DiningApp
+## Connect With Me
 
+- **Email:** JamesFowler.code@gmail.com
+- **Phone:** 617.404.7693
+- **LinkedIn:** [linkedin.com/in/jamesfowlerdev](https://linkedin.com/in/jamesfowlerdev/)
+- **GitHub:** [github.com/AlliDoisCode1234](https://github.com/AlliDoisCode1234)
+- **Twitter:** [@JamesFowlerDev](https://twitter.com/JamesFowlerDev)
+
+## Additional Projects
+
+**Pups App:** https://github.com/AlliDoisCode1234/pupsWeb  
+**Healthy Eating App:** https://github.com/AlliDoisCode1234/DiningApp  
 **Push-Every-Day Discord Bot:** https://github.com/AlliDoisCode1234/pushEveryDayDiscordBot
+
+---
+
+© 2025 Josiah James Fowler. All rights reserved.
