@@ -2628,6 +2628,13 @@ section#about .rounded.bg-white {
   font-weight: 600;
 }
 
+.portfolio-item .thumb img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* Current Work Section Styles */
 #current-work {
   background: #f9f9ff;
@@ -2745,6 +2752,10 @@ section#about .rounded.bg-white {
   .padding-30 {
     padding: 25px;
   }
+  
+  .portfolio-item .thumb img {
+    height: 240px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2771,5 +2782,9 @@ section#about .rounded.bg-white {
   
   .section-title {
     font-size: 24px;
+  }
+  
+  .portfolio-item .thumb img {
+    height: 200px;
   }
 }

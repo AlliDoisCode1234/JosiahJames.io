@@ -43,9 +43,9 @@ Sr Software Engineer specializing in scalable web and mobile products. This port
 
 ## Featured Projects
 
-**Push Every Day Discord Bot:** https://github.com/AlliDoisCode1234/pushEveryDayDiscordBot - Automated accountability bot for fitness communities  
-**Pups Social Platform:** https://github.com/AlliDoisCode1234/pupsWeb - Full-stack social networking application  
-**Healthy Eating App:** https://github.com/AlliDoisCode1234/DiningApp - MERN stack nutrition tracking application
+**Amazon Clone:** https://full-clone-cd754.web.app/ - Full-stack e-commerce platform with React, Firebase, Stripe payments, and scalable system design (Elasticsearch, Cassandra, Redis, Kafka clusters)  
+**Spotify Clone:** https://spotify-clone-fb4cd.web.app/ - Music streaming platform with Spotify API integration, Context API state management, real-time playlists, and Discover Weekly  
+**Google Search Clone:** https://search-clone-d9b45.web.app/ - Search engine interface with Google Custom Search API, Material UI, React Router, and Context API
 
 ## Connect With Me
 
