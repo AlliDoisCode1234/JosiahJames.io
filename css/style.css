@@ -825,8 +825,9 @@ section {
 section.home {
   background: #353353;
   padding: 0;
-  height: 90vh;
-  min-height: 90vh;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px;
 }
 section.home .intro {
   margin: auto;
@@ -1368,10 +1369,11 @@ select.portfolio-filter-mobile {
 
 .scroll-down {
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
   left: 0;
   width: 100%;
   z-index: 1;
+  opacity: 0.6;
 }
 .scroll-down.light span {
   color: #454360;
@@ -1381,6 +1383,9 @@ select.portfolio-filter-mobile {
 }
 .scroll-down.light .mouse .wheel {
   background: #353353;
+}
+.scroll-down:hover {
+  opacity: 1;
 }
 
 @-webkit-keyframes ani-mouse {
@@ -1879,13 +1884,17 @@ body.dark footer.footer {
 
 /* === Social Icons === */
 .social-icons li:not(:last-child) {
-  margin-right: 1.5rem;
+  margin-right: 2.5rem;
 }
 .social-icons li a {
-  font-size: 21px;
+  font-size: 24px;
 }
 .social-icons.light li a:hover {
   color: #00b373;
+}
+.social-icons {
+  justify-content: center;
+  display: flex;
 }
 
 /* === Go to Top === */
@@ -2291,6 +2300,11 @@ body.dark footer.footer {
   height: 6px;
   width: 10px;
 }
+.text-center.text-md-left {
+  display: flex;
+  align-items: flex-start;
+}
+
 .text-center.text-md-left img {
   width: 100%;
   border-radius: 10%;
@@ -2549,9 +2563,11 @@ header.desktop-header-3.fixed-top {
 }
 
 /* Senior-level professional enhancements */
-.intro h1 {
-  font-weight: 700;
-  letter-spacing: -0.5px;
+.hero-subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
 .intro span {
@@ -2562,6 +2578,34 @@ header.desktop-header-3.fixed-top {
 section#about p strong {
   color: #353353;
   font-weight: 600;
+}
+
+.profile-image {
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+}
+
+.profile-image:hover {
+  transform: scale(1.02);
+}
+
+section#about .row {
+  align-items: stretch;
+}
+
+section#about .col-md-5,
+section#about .col-md-7 {
+  display: flex;
+}
+
+section#about .rounded.bg-white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .timeline .content h3.title {
@@ -2582,4 +2626,150 @@ section#about p strong {
 
 .portfolio-item .details h4.title {
   font-weight: 600;
+}
+
+/* Current Work Section Styles */
+#current-work {
+  background: #f9f9ff;
+}
+
+.current-work-item h3 {
+  color: #353353;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.current-work-item p {
+  color: #5e5c7f;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.current-work-item .tech-stack {
+  margin: 15px 0;
+}
+
+.current-work-item .tech-stack strong {
+  color: #353353;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.current-work-features {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.current-work-features li {
+  color: #5e5c7f;
+  padding: 8px 0;
+  padding-left: 30px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.current-work-features li:before {
+  content: "✓";
+  color: #00b373;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+}
+
+/* Cleaner spacing */
+.padding-30 {
+  padding: 40px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Better responsive images */
+@media (max-width: 768px) {
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  
+  section#about .col-md-5,
+  section#about .col-md-7 {
+    display: block;
+  }
+  
+  .hero-subtitle {
+    font-size: 16px;
+  }
+  
+  .current-work-icon {
+    display: none;
+  }
+  
+  section.home {
+    height: auto;
+    min-height: 500px;
+    padding: 100px 0 50px;
+  }
+  
+  .intro {
+    padding: 20px;
+  }
+  
+  #headerLogo {
+    width: 70px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .service-box p {
+    font-size: 14px;
+  }
+  
+  .timeline .content h3.title {
+    font-size: 16px;
+  }
+  
+  .current-work-item h3 {
+    font-size: 24px;
+  }
+  
+  .padding-30 {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-subtitle {
+    font-size: 14px;
+  }
+  
+  section.home {
+    min-height: 450px;
+  }
+  
+  .scroll-down {
+    display: none;
+  }
+  
+  .social-icons li a {
+    font-size: 18px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+  }
 }

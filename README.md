@@ -29,6 +29,10 @@ Sr Software Engineer specializing in scalable web and mobile products. This port
 - Direct contact integration
 - SEO optimized with Open Graph meta tags
 
+## Current Client Work
+
+**NexBridge Middleware** - Enterprise-grade middleware solution connecting NexTech API with HubSpot CRM. Features real-time data synchronization, custom webhook handling, automated workflow triggers, and robust error handling.
+
 ## Professional Experience
 
 - **Full Stack Developer** at JosiahJames (Sep 2025 – Present)
@@ -37,6 +41,12 @@ Sr Software Engineer specializing in scalable web and mobile products. This port
 - **Director of Marketing** at Smartflower (2019 – 2020)
 - **Full Stack Software Engineer** at Resilient Coders (2017 – 2019)
 
+## Featured Projects
+
+**Push Every Day Discord Bot:** https://github.com/AlliDoisCode1234/pushEveryDayDiscordBot - Automated accountability bot for fitness communities  
+**Pups Social Platform:** https://github.com/AlliDoisCode1234/pupsWeb - Full-stack social networking application  
+**Healthy Eating App:** https://github.com/AlliDoisCode1234/DiningApp - MERN stack nutrition tracking application
+
 ## Connect With Me
 
 - **Email:** JamesFowler.code@gmail.com
@@ -44,12 +54,6 @@ Sr Software Engineer specializing in scalable web and mobile products. This port
 - **LinkedIn:** [linkedin.com/in/jamesfowlerdev](https://linkedin.com/in/jamesfowlerdev/)
 - **GitHub:** [github.com/AlliDoisCode1234](https://github.com/AlliDoisCode1234)
 - **Twitter:** [@JamesFowlerDev](https://twitter.com/JamesFowlerDev)
-
-## Additional Projects
-
-**Pups App:** https://github.com/AlliDoisCode1234/pupsWeb  
-**Healthy Eating App:** https://github.com/AlliDoisCode1234/DiningApp  
-**Push-Every-Day Discord Bot:** https://github.com/AlliDoisCode1234/pushEveryDayDiscordBot
 
 ---
 

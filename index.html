@@ -113,10 +113,10 @@
 					<ul class="navbar-nav ml-auto scrollspy">
 						<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
 						<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-						<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+						<li class="nav-item"><a href="#services" class="nav-link">Skills</a></li>
 						<li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-						<li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
-					
+						<li class="nav-item"><a href="#current-work" class="nav-link">Current Work</a></li>
+						<li class="nav-item"><a href="#works" class="nav-link">Projects</a></li>
 						<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 					</ul>
 				</div>
@@ -148,8 +148,7 @@
             />
 
             <!-- info -->
-            <h1 class="mb-2 mt-0">Josiah James Fowler</h1>
-            <span
+            <span class="hero-subtitle"
               >Sr Software Engineer
               <span class="text-rotating"
                 >Building Scalable Products, Architecting Solutions, Leading Teams, Delivering Impact</span
@@ -159,15 +158,11 @@
             <!-- social icons -->
             <ul class="social-icons light list-inline mb-0 mt-4">
               <li class="list-inline-item">
-                <a href="https://github.com/AlliDoisCode1234" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/AlliDoisCode1234" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://twitter.com/JamesFowlerDev" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/jamesfowlerdev/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
               </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/jamesfowlerdev/" target="_blank"><i class="fab fa-linkedin"></i></a>
-              </li>
-         
             </ul>
 
             <!-- buttons -->
@@ -203,15 +198,15 @@
           <div class="spacer" data-height="60"></div>
 
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-5">
               <div class="text-center text-md-left">
                 <!-- avatar image -->
-				<img src="images/jamesfowler.jpg" alt="James Fowler" />
+				<img src="images/headshot1.jpg" alt="Josiah James Fowler" class="profile-image" />
               </div>
               <div class="spacer d-md-none d-lg-none" data-height="30"></div>
             </div>
 
-            <div class="col-md-9 triangle-left-md triangle-top-sm">
+            <div class="col-md-7 triangle-left-md triangle-top-sm">
               <div class="rounded bg-white shadow-dark padding-30">
                 <div class="row">
                   <div class="col-md-12">
@@ -249,6 +244,55 @@
       </section>
 
 
+      <!-- section current work -->
+      <section id="current-work">
+        <div class="container">
+          <!-- section title -->
+          <h2 class="section-title wow fadeInUp">Current Client Work</h2>
+
+          <div class="spacer" data-height="60"></div>
+
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="bg-white rounded shadow-dark padding-30">
+                <div class="current-work-item">
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <span class="badge badge-primary mb-2" style="background: #00b373; padding: 8px 15px; border-radius: 20px; color: white; font-size: 12px; font-weight: 600;">IN DEVELOPMENT</span>
+                      <h3 class="mt-2 mb-3">NexBridge Middleware</h3>
+                      <p class="mb-3">
+                        Enterprise-grade middleware solution connecting NexTech API with HubSpot CRM. Streamlining data synchronization, automating workflows, and enabling seamless integration between practice management and marketing automation platforms.
+                      </p>
+                      <div class="tech-stack mb-3">
+                        <strong>Tech Stack:</strong>
+                        <span class="badge badge-secondary ml-2" style="background: #6C6CE5; color: white; padding: 5px 10px; border-radius: 15px; margin: 3px;">Node.js</span>
+                        <span class="badge badge-secondary" style="background: #6C6CE5; color: white; padding: 5px 10px; border-radius: 15px; margin: 3px;">TypeScript</span>
+                        <span class="badge badge-secondary" style="background: #6C6CE5; color: white; padding: 5px 10px; border-radius: 15px; margin: 3px;">API Integration</span>
+                        <span class="badge badge-secondary" style="background: #6C6CE5; color: white; padding: 5px 10px; border-radius: 15px; margin: 3px;">HubSpot</span>
+                        <span class="badge badge-secondary" style="background: #6C6CE5; color: white; padding: 5px 10px; border-radius: 15px; margin: 3px;">NexTech</span>
+                      </div>
+                      <ul class="current-work-features">
+                        <li>Real-time data synchronization between platforms</li>
+                        <li>Custom webhook handling and event processing</li>
+                        <li>Automated workflow triggers and data mapping</li>
+                        <li>Error handling and retry mechanisms for reliability</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4 text-center">
+                      <div class="current-work-icon" style="font-size: 80px; color: #00b373; opacity: 0.2;">
+                        <i class="fas fa-exchange-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="spacer" data-height="70"></div>
+        </div>
+      </section>
+
       <section id="works">
 
         <div class="container">
@@ -273,15 +317,15 @@
             
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item Projects">
-              <a href="https://smartflower.com/" class="" target="_blank">
+              <a href="https://github.com/AlliDoisCode1234/pushEveryDayDiscordBot" class="" target="_blank">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
-                    <span class="term">Web Platform</span>
-                    <h4 class="title">Enterprise Solar Platform</h4>
+                    <span class="term">Bot Development</span>
+                    <h4 class="title">Push Every Day Discord Bot</h4>
                     <span class="more-button"><i class="icon-magnifier-add"></i></span>
                   </div>
                   <div class="thumb">
-                    <img src="images/project1.png" alt="Portfolio-title" />
+                    <img src="images/project1.png" alt="Discord Bot" />
                     <div class="mask"></div>
                   </div>
                 </div>
@@ -290,15 +334,15 @@
 
             <!-- portfolio item -->
             <div class="col-md-4 col-sm-6 grid-item Projects">
-              <a href="https://allidoiscode1234.github.io/tetrisJS/" class="" target="_blank">
+              <a href="https://github.com/AlliDoisCode1234/pupsWeb" class="" target="_blank">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
-                    <span class="term">Algorithm Demo</span>
-                    <h4 class="title">Tetris Game Engine</h4>
+                    <span class="term">Full Stack App</span>
+                    <h4 class="title">Pups Social Platform</h4>
                     <span class="more-button"><i class="icon-magnifier-add"></i></span>
                   </div>
                   <div class="thumb">
-                    <img src="images/project3.png" alt="Portfolio-title" />
+                    <img src="images/project3.png" alt="Pups App" />
                     <div class="mask"></div>
                   </div>
                 </div>
@@ -308,15 +352,15 @@
             <!-- portfolio item -->
 
             <div class="col-md-4 col-sm-6 grid-item Projects">
-              <a href="https://allidoiscode1234.github.io/sudoku-auto-solver/" class="" target="_blank">
+              <a href="https://github.com/AlliDoisCode1234/DiningApp" class="" target="_blank">
                 <div class="portfolio-item rounded shadow-dark">
                   <div class="details">
-                    <span class="term">Algorithm Demo</span>
-                    <h4 class="title">Sudoku Solver Algorithm</h4>
+                    <span class="term">MERN Stack</span>
+                    <h4 class="title">Healthy Eating App</h4>
                     <span class="more-button"><i class="icon-magnifier-add"></i></span>
                   </div>
                   <div class="thumb">
-                    <img src="images/project2.png" alt="Portfolio-title" />
+                    <img src="images/project2.png" alt="Dining App" />
                     <div class="mask"></div>
                   </div>
                 </div>
@@ -646,15 +690,11 @@
         <div class="container">
 			<ul class="social-icons light list-inline mb-0 mt-4">
 				<li class="list-inline-item">
-				  <a id="btmicons" href="https://github.com/AlliDoisCode1234" target="_blank"><i class="fab fa-github"></i></a>
+				  <a id="btmicons" href="https://github.com/AlliDoisCode1234" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
 				</li>
 				<li class="list-inline-item">
-				  <a id="btmicons" href="https://twitter.com/JamesFowlerDev" target="_blank"><i class="fab fa-twitter"></i></a>
+				  <a id="btmicons" href="https://www.linkedin.com/in/jamesfowlerdev/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
 				</li>
-				<li class="list-inline-item">
-				  <a id="btmicons"href="https://www.linkedin.com/in/jamesfowlerdev/" target="_blank"><i class="fab fa-linkedin"></i></a>
-				</li>
-		   
 			  </ul>
           <span class="copyright">© 2025 Josiah James Fowler. All rights reserved.</span>
         </div>
